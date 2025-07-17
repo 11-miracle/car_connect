@@ -1,0 +1,12 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "MYSQL_HOST": true,
+    "MYSQL_USER": true,
+    "MYSQL_PASSWORD": true,
+    "MYSQL_DATABASE": true
+  }
+}
